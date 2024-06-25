@@ -10,6 +10,7 @@
     body{
         position:relative;
         background-color:white;
+        -moz-background:white;
         min-height:100vh;
         width:100%;
         overflow-x:hidden;
@@ -73,7 +74,6 @@
     display:flex;
     justify-content:space-around;
     align-items:center;
-   // background-color:deepskyblue;
     flex-direction:row;
     padding-bottom:50px;
     position:relative;
@@ -194,6 +194,9 @@ transform:rotate(270deg);
     grid-template-columns:60% 40%;
     align-items:stretch;
     gap:10px;
+}
+.about .cols .col{
+    width:100%;
 }
 .about .cols .education{
     width:100%;
